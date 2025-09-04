@@ -22,7 +22,7 @@
    if (isLoading || newValue == '') {
       return;
    }
- 
+
 	var ga = new GlideAjax("MediaUtilsClient");
     ga.addParam("sysparm_name", "getMediaData");
 	ga.addParam("sysparm_media_sys_id", newValue);
@@ -31,7 +31,7 @@
 		var objResponse = JSON.parse(response);
 		g_form.setValue("average_rating", objResponse.average_rating);
 		g_form.setValue("synopsis", objResponse.synopsis);
-		top.window.document.getElementById("poster_image").src = objResponse.poster_url;
+		top.window.document.getElementById("poster_image").src = !objResponse.poster_url ? "" : objResponse.poster_url;
 	});
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8aebe29d83b322107b815950ceaad390</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Load Media Data</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1783527_netflix">6fc344e4833b22107b815950ceaad3d6</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="Netflix">6fc344e4833b22107b815950ceaad3d6</sys_scope>
         <sys_update_name>catalog_script_client_8aebe29d83b322107b815950ceaad390</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-04 17:20:03</sys_updated_on>
+        <sys_updated_on>2025-09-04 17:25:41</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
