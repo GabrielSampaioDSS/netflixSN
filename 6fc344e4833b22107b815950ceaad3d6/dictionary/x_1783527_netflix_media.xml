@@ -8,6 +8,7 @@
             </choice>
         </element>
         <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element default="0" label="IMBD Rating" max_length="40" name="imbd_rating" type="float"/>
         <element default="0" label="Average Rating" max_length="255" name="average_rating" type="float"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
