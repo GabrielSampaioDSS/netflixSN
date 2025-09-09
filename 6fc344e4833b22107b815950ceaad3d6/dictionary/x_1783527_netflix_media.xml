@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d1babf6883b322107b815950ceaad3db" label="Media" max_length="40" name="x_1783527_netflix_media" type="collection">
+        <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Media not Found" sequence="4" value="7"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="2" value="4"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+            </choice>
+        </element>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Movie" sequence="0" value="movie"/>
@@ -15,6 +24,12 @@
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element label="Production" max_length="250" name="production" type="string"/>
         <element label="Awards" max_length="250" name="awards" type="string"/>
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="1"/>
+            </choice>
+        </element>
         <element label="Country" max_length="250" name="country" type="string"/>
         <element label="Category" max_length="40" name="category" type="string"/>
         <element label="Language" max_length="250" name="language" type="string"/>

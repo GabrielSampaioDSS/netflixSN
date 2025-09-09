@@ -38,6 +38,7 @@
         <message/>
         <message_html><![CDATA[<p>Hello ${opened_by.first_name}</p>
 <p>Your review for the ${media.type} ${media.title} is ${state}</p>
+<p>Reproval Reason: ${reproval_reason}</p>
 <p><img style="width: 300px;" src="${media.poster}"></p>
 <p>If you want to send more reviews, click <a href="sp?id=sc_cat_item&amp;sys_id=b650b181837f62107b815950ceaad3bc">here</a></p>]]></message_html>
         <message_list/>
@@ -61,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a737a666837322107b815950ceaad358</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Review Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1783527_netflix">6fc344e4833b22107b815950ceaad3d6</sys_package>
@@ -69,7 +70,7 @@
         <sys_scope display_value="Netflix">6fc344e4833b22107b815950ceaad3d6</sys_scope>
         <sys_update_name>sysevent_email_action_a737a666837322107b815950ceaad358</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-08 16:40:19</sys_updated_on>
+        <sys_updated_on>2025-09-08 20:43:49</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
