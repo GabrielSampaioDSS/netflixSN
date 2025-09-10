@@ -7,7 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category display_value="Netflix">3b2e19c5833f62107b815950ceaad3fa</category>
-        <checked_out/>
+        <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
@@ -78,7 +78,7 @@
         <short_description>Your media review app</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-03 17:32:09</sys_created_on>
