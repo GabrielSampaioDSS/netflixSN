@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions/>
+        <conditions table="x_1783527_netflix_media">state=3^EQ<item display_value="Completed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
@@ -9,8 +11,8 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>100</order>
-        <reverse_if_false>true</reverse_if_false>
+        <order>200</order>
+        <reverse_if_false>false</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
@@ -19,22 +21,22 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Default Read Only Fields</short_description>
+        <short_description>Read Only When Completed</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-10 13:06:39</sys_created_on>
+        <sys_created_on>2025-09-15 14:21:19</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>6907f497837322107b815950ceaad33c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Default Read Only Fields</sys_name>
+        <sys_id>8c1836fc838032107b815950ceaad3d8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Read Only When Completed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Netflix" source="x_1783527_netflix">6fc344e4833b22107b815950ceaad3d6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">6fc344e4833b22107b815950ceaad3d6</sys_scope>
-        <sys_update_name>sys_ui_policy_6907f497837322107b815950ceaad33c</sys_update_name>
+        <sys_update_name>sys_ui_policy_8c1836fc838032107b815950ceaad3d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-15 14:39:27</sys_updated_on>
+        <sys_updated_on>2025-09-15 15:06:26</sys_updated_on>
         <table>x_1783527_netflix_media</table>
         <ui_type>0</ui_type>
         <view/>

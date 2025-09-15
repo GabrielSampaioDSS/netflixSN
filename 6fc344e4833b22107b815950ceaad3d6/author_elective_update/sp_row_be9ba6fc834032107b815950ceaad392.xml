@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Media Catalog - Container 1">556b2ebc834032107b815950ceaad359</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 13:26:21</sys_created_on>
+        <sys_id>be9ba6fc834032107b815950ceaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Netflix" source="x_1783527_netflix">6fc344e4833b22107b815950ceaad3d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">6fc344e4833b22107b815950ceaad3d6</sys_scope>
+        <sys_update_name>sp_row_be9ba6fc834032107b815950ceaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 13:26:21</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Netflix">6fc344e4833b22107b815950ceaad3d6</application>
+        <file_path/>
+        <instance_id>d7a3c887fb7b4a581feef633beefdcb5</instance_id>
+        <instance_name>dev286372</instance_name>
+        <name>sp_row_be9ba6fc834032107b815950ceaad392</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><semantic_tag/><sp_column/><sp_container display_value="Media Catalog - Container 1">556b2ebc834032107b815950ceaad359</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-15 13:26:21</sys_created_on><sys_id>be9ba6fc834032107b815950ceaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Netflix" source="x_1783527_netflix">6fc344e4833b22107b815950ceaad3d6</sys_package><sys_policy/><sys_scope display_value="Netflix">6fc344e4833b22107b815950ceaad3d6</sys_scope><sys_update_name>sp_row_be9ba6fc834032107b815950ceaad392</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-15 13:26:21</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>-1854259413</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>88e7f11b83b722107b815950ceaad34f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 13:26:21</sys_created_on>
+        <sys_id>369ba6fc834032107b815950ceaad395</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994d8e14d90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 13:26:21</sys_updated_on>
+        <type>Row</type>
+        <update_guid>3a9ba6fcfa4032106f7e8c3077e90894</update_guid>
+        <update_guid_history>3a9ba6fcfa4032106f7e8c3077e90894:-1854259413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">6cab6630838032107b815950ceaad3c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 13:26:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>01e950906b7a48008007160d7e8eaa40</sys_id>
+        <sys_metadata>be9ba6fc834032107b815950ceaad392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Netflix" source="x_1783527_netflix">6fc344e4833b22107b815950ceaad3d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Netflix">6fc344e4833b22107b815950ceaad3d6</sys_scope>
+        <sys_scope_delete display_value="">13d73e6b17ed4fe082f7cf3be642a100</sys_scope_delete>
+        <sys_update_name>sp_row_be9ba6fc834032107b815950ceaad392</sys_update_name>
+        <sys_update_version display_value="sp_row_be9ba6fc834032107b815950ceaad392">369ba6fc834032107b815950ceaad395</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 13:26:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
