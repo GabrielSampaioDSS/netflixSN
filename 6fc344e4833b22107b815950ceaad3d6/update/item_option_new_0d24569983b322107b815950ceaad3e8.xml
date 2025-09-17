@@ -58,7 +58,7 @@
         <record/>
         <record_producer_table>x_1783527_netflix_review</record_producer_table>
         <reference>x_1783527_netflix_media</reference>
-        <reference_qual/>
+        <reference_qual>javascript:new x_1783527_netflix.MediaUtils2().refQualMedia();</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-04 14:45:05</sys_created_on>
         <sys_id>0d24569983b322107b815950ceaad3e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Title</sys_name>
         <sys_package display_value="Netflix" source="x_1783527_netflix">6fc344e4833b22107b815950ceaad3d6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netflix">6fc344e4833b22107b815950ceaad3d6</sys_scope>
         <sys_update_name>item_option_new_0d24569983b322107b815950ceaad3e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-04 14:45:05</sys_updated_on>
+        <sys_updated_on>2025-09-17 13:14:10</sys_updated_on>
         <table/>
         <tooltip>Type the media name</tooltip>
         <topic_block/>
@@ -94,7 +94,7 @@
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
